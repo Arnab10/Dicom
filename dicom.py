@@ -17,6 +17,7 @@ file.write("{}".format(ds1.dir()))
 file.write("\nThe DICOM Tags of bmode.dcm file : \n")
 file.write("{}".format(ds2.dir()))
 
+#closing the files
 filename1.close()
 filename2.close()
 file.close()
